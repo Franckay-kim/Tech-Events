@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input,
+textarea,
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+/* General form styles */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Registration form styles */
+.registration-form {
+    background-color: #f0f8ff; /* Light blue */
+}
+
+/* Login form styles */
+.login-form {
+    background-color: #fffafa; /* Snow */
+}
+
+/* Add event form styles */
+.add-event-form {
+    background-color: #f0fff0; /* Honeydew */
+}
