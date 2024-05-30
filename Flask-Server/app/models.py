@@ -161,7 +161,7 @@ class User(UserMixin, db.Model):
 def load_user(id):
     return db.session.get(User, int(id))
 
-#
+#To be used for posting events
 class Post(SearchableMixin, db.Model):
     __searchable__ = ['body']
     id: so.Mapped[int] = so.MappedColumn(primary_key=True)
